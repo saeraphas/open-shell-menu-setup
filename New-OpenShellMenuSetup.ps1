@@ -1,7 +1,7 @@
 # powershell Open-Shell Menu install
 $dir = "c:\temp"
 New-Item $dir -ItemType Directory -force
-$url = "https://github.com/Open-Shell/Open-Shell-Menu/releases/download/v4.4.191/OpenShellSetup_4_4_191.exe"
+$url = "https://github.com/Open-Shell/Open-Shell-Menu/releases/download/v4.4.195/OpenShellSetup_4_4_195.exe"
 $file = "$($dir)\OpenShellSetup_4_4_191.exe"
 $url2 = "https://raw.githubusercontent.com/saeraphas/open-shell-menu-setup/refs/heads/main/Menu_Settings.xml"
 $file2 = "$($dir)\Menu_Settings.xml"
